@@ -3,7 +3,7 @@
     <div class="sidebar-header position-relative">
       <div class="d-flex justify-content-between align-items-center">
         <div class="logo">
-          <a href="index.html"><img src="{{asset('/images/logo/logo.svg')}}" alt="Logo" srcset="" /></a>
+          <a href="index.html"><img src="{{asset('/images/4.png')}}" alt="Logo" srcset="" style="height: 40px; width: 120px;"/></a>
         </div>
         <div class="theme-toggle d-flex gap-2 align-items-center mt-2">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
@@ -33,29 +33,37 @@
       <ul class="menu">
         <li class="sidebar-title">Menu</li>
 
-        <li class="sidebar-item {{ $title == "Dashboard" ? "active" : "" }}">
-          <a href="/dashboard" class="sidebar-link">
-            <i class="bi bi-grid-fill"></i>
-            <span>Dashboard</span>
+        <li class="sidebar-item {{ $title == "Data Pasien" ? "active" : "" }}">
+          <a href="{{ route('data-pasien') }}" class="sidebar-link">
+            <i class="bi bi-person-badge-fill"></i>
+            <span>Data Pasien</span>
           </a>
         </li>
 
-        <li class="sidebar-item {{ $title == "Home" ? "active" : "" }} has-sub">
+        <li class="sidebar-item {{ $title == "Kunjungan" ? "active" : "" }}">
           <a href="/" class="sidebar-link">
+            <i class="bi bi-file-earmark-medical-fill"></i>
+            <span>About Us</span>
+          </a>
+        </li>
+
+
+        <!-- <li class="sidebar-item {{ $title == "Data Pasien" || $title == "Data Odontogram"? "active" : "" }} has-sub">
+          <a href="/data_pasien" class="sidebar-link">
             <i class="bi bi-file-earmark-medical-fill"></i>
             <span>Rekam Medik</span>
           </a>
-          <ul class="submenu {{ $title == "Home" ? "active" : "" }}">
-            <li class="submenu-item {{ $title == "Home" ? "active" : "" }}">
-              <a href="/">Data Pasien</a>
+          <ul class="submenu {{ $title == "Data Pasien" || $title == "Data Odontogram"? "active" : "" }}">
+            <li class="submenu-item {{ $title == "Data Pasien" ? "active" : "" }}">
+              <a href="/data_pasien">Data Pasien</a>
             </li>
-            <li class="submenu-item">
-              <a href="/">Odontogram</a>
+            <li class="submenu-item {{ $title == "Data Odontogram" ? "active" : "" }}">
+              <a href="/data_odontogram">Data Odontogram</a>
             </li>
           </ul>
-        </li>
+        </li> -->
 
-        <li class="sidebar-title">Forms &amp; Tables</li>
+        <!-- <li class="sidebar-title">Forms &amp; Tables</li>
 
         <li class="sidebar-item has-sub">
           <a href="#" class="sidebar-link">
@@ -67,7 +75,7 @@
               <a href="form-element-input.html">Input</a>
             </li>
           </ul>
-        </li>
+        </li> -->
 
       </ul>
     </div>
