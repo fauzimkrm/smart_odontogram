@@ -77,10 +77,14 @@
                 <div class="card">
                     <div class="card-body">
                         <h3>Odontogram</h3>
-                        <div class="row  pt-2">
+                        <div class="row justify-content-between  pt-2">
                             <div class="col-6 col-lg-6">
                                 @foreach ($kondisigigi as $key => $val)
+                                    @if (($loop->index + 1) >= 6)
+                                    <img id="{{ $key }}" src="{{asset('images/'. $val .'1.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @else
                                     <img id="{{ $key }}" src="{{asset('images/'. $val .'.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @endif
                                     <div class="modal" id="modal-gigi-{{ $key }}">
                                         <div class="modal-dialog modal-dialog-centered modal-lg">
                                             <div class="modal-content">
@@ -143,12 +147,16 @@
                                     @endif
                                 @endforeach
                             </div>
-                            <div class="col-6 col-lg-6">
+                            <div class="col-6 col-lg-6 d-flex justify-content-end">
                                 @foreach ($kondisigigi as $key => $val)
                                     @if (($loop->index + 1) <= 8)
                                         @continue;
                                     @endif
+                                    @if (($loop->index + 1) <= 11)
+                                    <img id="{{ $key }}" src="{{asset('images/'. $val .'1.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @else
                                     <img id="{{ $key }}" src="{{asset('images/'. $val .'.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @endif
                                     <div class="modal" id="modal-gigi-{{ $key }}">
                                         <div class="modal-dialog modal-dialog-centered modal-lg">
                                             <div class="modal-content">
@@ -216,7 +224,11 @@
                                     @if (($loop->index + 1) <= 16)
                                         @continue;
                                     @endif
-                                    <img id="{{ $key }}" src="{{asset('images/'.$val.'.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{$key}}" />
+                                    @if (($loop->index + 1) >= 22)
+                                    <img id="{{ $key }}" src="{{asset('images/'. $val .'1.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @else
+                                    <img id="{{ $key }}" src="{{asset('images/'. $val .'.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @endif
                                     <div class="modal" id="modal-gigi-{{ $key }}">
                                         <div class="modal-dialog modal-dialog-centered modal-lg">
                                             <div class="modal-content">
@@ -279,12 +291,16 @@
                                     @endif
                                 @endforeach
                             </div>
-                            <div class="col-6 col-lg-6">
+                            <div class="col-6 col-lg-6 d-flex justify-content-end">
                                 @foreach ($kondisigigi as $key => $val)
                                     @if (($loop->index + 1) <= 24)
                                         @continue;
                                     @endif
-                                    <img id="{{$key}}" src="{{asset('images/'.$val.'.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{$key}}" />
+                                    @if (($loop->index + 1) <= 27)
+                                    <img id="{{ $key }}" src="{{asset('images/'. $val .'1.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @else
+                                    <img id="{{ $key }}" src="{{asset('images/'. $val .'.png')}}" alt="normal" type="button" style="height: 60px; width: 60px;" data-bs-toggle="modal" data-bs-target="#modal-gigi-{{ $key }}" />
+                                    @endif
                                     <div class="modal" id="modal-gigi-{{ $key }}">
                                         <div class="modal-dialog modal-dialog-centered modal-lg">
                                             <div class="modal-content">

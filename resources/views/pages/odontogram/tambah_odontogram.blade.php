@@ -18,18 +18,6 @@
             <div class="col-12 col-md-6 order-md-1 order-last">
                 <h3>Pemeriksaan Odontogram Pasien</h3>
             </div>
-            <div class="col-12 col-md-6 order-md-2 order-first">
-                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="index.html">Dashboard</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">
-                            Layout Vertical Navbar
-                        </li>
-                    </ol>
-                </nav>
-            </div>
         </div>
     </div>
     <section class="section">
@@ -67,10 +55,10 @@
                 <div class="card">
                     <div class="card-body">
                         <span style="font-style: italic;">jalankan kamera dari gigi 18 - 48</span>
-                        <h2>Hasil Klasifikasi</h2>
+                        <h2>Hasil Prediksi</h2>
                         <div>
-                            <!-- <span>Jenis Gigi : </span>
-                            <h3 id="jenis_gigi"></h3> -->
+                            <h4>Jenis Gigi : </h4>
+                            <h3 id="jenis_gigi"></h3>
                             <h4>Kondisi Gigi : </h4>
                             <h3 id="kondisi_gigi"></h3>
                         </div>
@@ -82,22 +70,70 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Kondisi Gigi 18: </h4>
-                        <h5 id="kg1"></h5>
-                        <h4>Kondisi Gigi 17: </h4>
-                        <h5 id="kg2"></h5>
-                        <h4>Kondisi Gigi 16: </h4>
-                        <h5 id="kg3"></h5>
-                        <h4>Kondisi Gigi 15: </h4>
-                        <h5 id="kg4"></h5>
-                        <h4>Kondisi Gigi 14: </h4>
-                        <h5 id="kg5"></h5>
-                        <h4>Kondisi Gigi 13: </h4>
-                        <h5 id="kg6"></h5>
-                        <h4>Kondisi Gigi 12: </h4>
-                        <h5 id="kg7"></h5>
-                        <h4>Kondisi Gigi 11: </h4>
-                        <h5 id="kg8"></h5>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 18: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg1"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 17: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg2"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 16: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg3"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 15: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg4"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 14: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg5"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 13: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg6"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 12: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg7"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 11: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg8"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,22 +141,70 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Kondisi Gigi 21: </h4>
-                        <h5 id="kg9"></h5>
-                        <h4>Kondisi Gigi 22: </h4>
-                        <h5 id="kg10"></h5>
-                        <h4>Kondisi Gigi 23: </h4>
-                        <h5 id="kg11"></h5>
-                        <h4>Kondisi Gigi 24: </h4>
-                        <h5 id="kg12"></h5>
-                        <h4>Kondisi Gigi 25: </h4>
-                        <h5 id="kg13"></h5>
-                        <h4>Kondisi Gigi 26: </h4>
-                        <h5 id="kg14"></h5>
-                        <h4>Kondisi Gigi 27: </h4>
-                        <h5 id="kg15"></h5>
-                        <h4>Kondisi Gigi 28: </h4>
-                        <h5 id="kg16"></h5>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 21: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg9"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 22: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg10"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 23: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg11"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 24: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg12"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 25: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg13"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 26: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg14"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 27: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg15"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 28: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg16"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,22 +212,70 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Kondisi Gigi 38: </h4>
-                        <h5 id="kg17"></h5>
-                        <h4>Kondisi Gigi 37: </h4>
-                        <h5 id="kg18"></h5>
-                        <h4>Kondisi Gigi 36: </h4>
-                        <h5 id="kg19"></h5>
-                        <h4>Kondisi Gigi 35: </h4>
-                        <h5 id="kg20"></h5>
-                        <h4>Kondisi Gigi 34: </h4>
-                        <h5 id="kg21"></h5>
-                        <h4>Kondisi Gigi 33: </h4>
-                        <h5 id="kg22"></h5>
-                        <h4>Kondisi Gigi 32: </h4>
-                        <h5 id="kg23"></h5>
-                        <h4>Kondisi Gigi 31: </h4>
-                        <h5 id="kg24"></h5>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 38: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg17"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 37: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg18"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 36: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg19"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 35: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg20"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 34: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg21"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 33: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg22"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 32: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg23"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 31: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg24"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,22 +283,70 @@
             <div class="col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Kondisi Gigi 41: </h4>
-                        <h5 id="kg25"></h5>
-                        <h4>Kondisi Gigi 42: </h4>
-                        <h5 id="kg26"></h5>
-                        <h4>Kondisi Gigi 43: </h4>
-                        <h5 id="kg27"></h5>
-                        <h4>Kondisi Gigi 44: </h4>
-                        <h5 id="kg28"></h5>
-                        <h4>Kondisi Gigi 45: </h4>
-                        <h5 id="kg29"></h5>
-                        <h4>Kondisi Gigi 46: </h4>
-                        <h5 id="kg30"></h5>
-                        <h4>Kondisi Gigi 47: </h4>
-                        <h5 id="kg31"></h5>
-                        <h4>Kondisi Gigi 48: </h4>
-                        <h5 id="kg32"></h5>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 41: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg25"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 42: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg26"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 43: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg27"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 44: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg28"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 45: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg29"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 46: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg30"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 47: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg31"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-7">
+                                <span>Kondisi Gigi 48: </span>
+                            </div>
+                            <div class="col-5">
+                                <span id="kg32"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
