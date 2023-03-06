@@ -52,6 +52,9 @@ class PasienController extends Controller
         $path = "images/" . $norm;
         Storage::disk('public')->makeDirectory($path);
         $pasien = DB::table('pasiens')->where('no_rekam_medik', $norm)->first();
+        $count = Count::findOrFail(1);
+        $count->count = 1;
+        $count->save();
         return to_route('pemeriksaan-odontogram', $pasien->id);
     }
 

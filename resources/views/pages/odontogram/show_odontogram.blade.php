@@ -62,7 +62,7 @@
                                     </div>
                                     <div class="col-sm-12 d-flex justify-content-end">
                                         <button type="submit" class="btn btn-primary me-1 mb-1">
-                                            Update Data Odontogram
+                                            Update Data Pemeriksaan
                                         </button>
                                     </div>
                                 </div>
@@ -125,6 +125,22 @@
                                                                         <option value="sisa_akar" {{ $val == 'sisa_akar' ? 'selected' : '' }}>Sisa Akar</option>
                                                                         <option value="tumpatan" {{ $val == 'tumpatan' ? 'selected' : '' }}>Tumpatan</option>
                                                                         <option value="impaksi" {{ $val == 'impaksi' ? 'selected' : '' }}>Impaksi</option>
+                                                                        <option value="amf_rct" {{ $val == 'amf_rct' ? 'selected' : '' }}>amf - rct</option>
+                                                                        <option value="anomali" {{ $val == 'anomali' ? 'selected' : '' }}>Anomali</option>
+                                                                        <option value="fmc_rct" {{ $val == 'fmc_rct' ? 'selected' : '' }}>fmc - rct</option>
+                                                                        <option value="fmc" {{ $val == 'fmc' ? 'selected' : '' }}>Full Metal Crown</option>
+                                                                        <option value="fracture" {{ $val == 'fracture' ? 'selected' : '' }}>fracture</option>
+                                                                        <option value="ipx" {{ $val == 'ipx' ? 'selected' : '' }}>Implant Porcelein Crown</option>
+                                                                        <option value="mis" {{ $val == 'mis' ? 'selected' : '' }}>Missing</option>
+                                                                        <option value="non" {{ $val == 'non' ? 'selected' : '' }}>non</option>
+                                                                        <option value="nvt" {{ $val == 'nvt' ? 'selected' : '' }}>Non Vital</option>
+                                                                        <option value="partial_erupt" {{ $val == 'partial_erupt' ? 'selected' : '' }}>Partial Erupt</option>
+                                                                        <option value="pit" {{ $val == 'pit' ? 'selected' : '' }}>Pit dan Fissure Sealant</option>
+                                                                        <option value="poc_rct" {{ $val == 'poc_rct' ? 'selected' : '' }}>Porcelein Crown - rct</option>
+                                                                        <option value="poc" {{ $val == 'poc' ? 'selected' : '' }}>Porcelein Crown </option>
+                                                                        <option value="prd" {{ $val == 'prd' ? 'selected' : '' }}>Denture </option>
+                                                                        <option value="rct" {{ $val == 'rct' ? 'selected' : '' }}>Perawatan Saluran Akar </option>
+                                                                        <option value="tumpatan_amalgam" {{ $val == 'tumpatan_amalgam' ? 'selected' : '' }}> Tumpatan Amalgam </option>
                                                                     </select>
                                                                 </div>
                                                             </div>
@@ -197,6 +213,22 @@
                                                                         <option value="sisa_akar" {{ $val == 'sisa_akar' ? 'selected' : '' }}>Sisa Akar</option>
                                                                         <option value="tumpatan" {{ $val == 'tumpatan' ? 'selected' : '' }}>Tumpatan</option>
                                                                         <option value="impaksi" {{ $val == 'impaksi' ? 'selected' : '' }}>Impaksi</option>
+                                                                        <option value="amf_rct" {{ $val == 'amf_rct' ? 'selected' : '' }}>amf - rct</option>
+                                                                        <option value="anomali" {{ $val == 'anomali' ? 'selected' : '' }}>Anomali</option>
+                                                                        <option value="fmc_rct" {{ $val == 'fmc_rct' ? 'selected' : '' }}>fmc - rct</option>
+                                                                        <option value="fmc" {{ $val == 'fmc' ? 'selected' : '' }}>Full Metal Crown</option>
+                                                                        <option value="fracture" {{ $val == 'fracture' ? 'selected' : '' }}>fracture</option>
+                                                                        <option value="ipx" {{ $val == 'ipx' ? 'selected' : '' }}>Implant Porcelein Crown</option>
+                                                                        <option value="mis" {{ $val == 'mis' ? 'selected' : '' }}>Missing</option>
+                                                                        <option value="non" {{ $val == 'non' ? 'selected' : '' }}>non</option>
+                                                                        <option value="nvt" {{ $val == 'nvt' ? 'selected' : '' }}>Non Vital</option>
+                                                                        <option value="partial_erupt" {{ $val == 'partial_erupt' ? 'selected' : '' }}>Partial Erupt</option>
+                                                                        <option value="pit" {{ $val == 'pit' ? 'selected' : '' }}>Pit dan Fissure Sealant</option>
+                                                                        <option value="poc_rct" {{ $val == 'poc_rct' ? 'selected' : '' }}>Porcelein Crown - rct</option>
+                                                                        <option value="poc" {{ $val == 'poc' ? 'selected' : '' }}>Porcelein Crown </option>
+                                                                        <option value="prd" {{ $val == 'prd' ? 'selected' : '' }}>Denture </option>
+                                                                        <option value="rct" {{ $val == 'rct' ? 'selected' : '' }}>Perawatan Saluran Akar </option>
+                                                                        <option value="tumpatan_amalgam" {{ $val == 'tumpatan_amalgam' ? 'selected' : '' }}> Tumpatan Amalgam </option>
                                                                     </select>
                                                                 </div>
                                                             </div>
@@ -269,6 +301,22 @@
                                                                         <option value="sisa_akar" {{ $val == 'sisa_akar' ? 'selected' : '' }}>Sisa Akar</option>
                                                                         <option value="tumpatan" {{ $val == 'tumpatan' ? 'selected' : '' }}>Tumpatan</option>
                                                                         <option value="impaksi" {{ $val == 'impaksi' ? 'selected' : '' }}>Impaksi</option>
+                                                                        <option value="amf_rct" {{ $val == 'amf_rct' ? 'selected' : '' }}>amf - rct</option>
+                                                                        <option value="anomali" {{ $val == 'anomali' ? 'selected' : '' }}>Anomali</option>
+                                                                        <option value="fmc_rct" {{ $val == 'fmc_rct' ? 'selected' : '' }}>fmc - rct</option>
+                                                                        <option value="fmc" {{ $val == 'fmc' ? 'selected' : '' }}>Full Metal Crown</option>
+                                                                        <option value="fracture" {{ $val == 'fracture' ? 'selected' : '' }}>fracture</option>
+                                                                        <option value="ipx" {{ $val == 'ipx' ? 'selected' : '' }}>Implant Porcelein Crown</option>
+                                                                        <option value="mis" {{ $val == 'mis' ? 'selected' : '' }}>Missing</option>
+                                                                        <option value="non" {{ $val == 'non' ? 'selected' : '' }}>non</option>
+                                                                        <option value="nvt" {{ $val == 'nvt' ? 'selected' : '' }}>Non Vital</option>
+                                                                        <option value="partial_erupt" {{ $val == 'partial_erupt' ? 'selected' : '' }}>Partial Erupt</option>
+                                                                        <option value="pit" {{ $val == 'pit' ? 'selected' : '' }}>Pit dan Fissure Sealant</option>
+                                                                        <option value="poc_rct" {{ $val == 'poc_rct' ? 'selected' : '' }}>Porcelein Crown - rct</option>
+                                                                        <option value="poc" {{ $val == 'poc' ? 'selected' : '' }}>Porcelein Crown </option>
+                                                                        <option value="prd" {{ $val == 'prd' ? 'selected' : '' }}>Denture </option>
+                                                                        <option value="rct" {{ $val == 'rct' ? 'selected' : '' }}>Perawatan Saluran Akar </option>
+                                                                        <option value="tumpatan_amalgam" {{ $val == 'tumpatan_amalgam' ? 'selected' : '' }}> Tumpatan Amalgam </option>
                                                                     </select>
                                                                 </div>
                                                             </div>
@@ -341,6 +389,22 @@
                                                                         <option value="sisa_akar" {{ $val == 'sisa_akar' ? 'selected' : '' }}>Sisa Akar</option>
                                                                         <option value="tumpatan" {{ $val == 'tumpatan' ? 'selected' : '' }}>Tumpatan</option>
                                                                         <option value="impaksi" {{ $val == 'impaksi' ? 'selected' : '' }}>Impaksi</option>
+                                                                        <option value="amf_rct" {{ $val == 'amf_rct' ? 'selected' : '' }}>amf - rct</option>
+                                                                        <option value="anomali" {{ $val == 'anomali' ? 'selected' : '' }}>Anomali</option>
+                                                                        <option value="fmc_rct" {{ $val == 'fmc_rct' ? 'selected' : '' }}>fmc - rct</option>
+                                                                        <option value="fmc" {{ $val == 'fmc' ? 'selected' : '' }}>Full Metal Crown</option>
+                                                                        <option value="fracture" {{ $val == 'fracture' ? 'selected' : '' }}>fracture</option>
+                                                                        <option value="ipx" {{ $val == 'ipx' ? 'selected' : '' }}>Implant Porcelein Crown</option>
+                                                                        <option value="mis" {{ $val == 'mis' ? 'selected' : '' }}>Missing</option>
+                                                                        <option value="non" {{ $val == 'non' ? 'selected' : '' }}>non</option>
+                                                                        <option value="nvt" {{ $val == 'nvt' ? 'selected' : '' }}>Non Vital</option>
+                                                                        <option value="partial_erupt" {{ $val == 'partial_erupt' ? 'selected' : '' }}>Partial Erupt</option>
+                                                                        <option value="pit" {{ $val == 'pit' ? 'selected' : '' }}>Pit dan Fissure Sealant</option>
+                                                                        <option value="poc_rct" {{ $val == 'poc_rct' ? 'selected' : '' }}>Porcelein Crown - rct</option>
+                                                                        <option value="poc" {{ $val == 'poc' ? 'selected' : '' }}>Porcelein Crown </option>
+                                                                        <option value="prd" {{ $val == 'prd' ? 'selected' : '' }}>Denture </option>
+                                                                        <option value="rct" {{ $val == 'rct' ? 'selected' : '' }}>Perawatan Saluran Akar </option>
+                                                                        <option value="tumpatan_amalgam" {{ $val == 'tumpatan_amalgam' ? 'selected' : '' }}> Tumpatan Amalgam </option>
                                                                     </select>
                                                                 </div>
                                                             </div>
